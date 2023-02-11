@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Betway/.vs/Betway
+/Betway/Betway.Service.Web.Api/bin/Debug/net7.0
+/Betway/Betway.Service.Web.Api/obj
+/Betway/Betway.Service.Web.Api.Test/bin/Debug/net7.0
+/Betway/Betway.Service.Web.Api.Test/obj
