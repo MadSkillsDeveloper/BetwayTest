@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn {
+  @apply font-bold p-1 rounded-[3px] mt-4 xs:w-24;
+}
+
+.btn-primary {
+  @apply bg-[#00a826]  text-white;
+}
+
+.btn-primary:hover {
+  @apply bg-white text-[#00a826];
+}
+
+.btn-secondary {
+  @apply bg-white text-[#00a826];
+}
+
+.btn-secondary:hover {
+  @apply bg-[#00a826] text-white;
+}
+
+.cta {
+  @apply xs:w-52 py-3;
+}
