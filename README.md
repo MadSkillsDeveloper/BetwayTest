@@ -1,2 +1,2 @@
 # BetwayTest
-My Betway test for Digi outsource
+My Betway test for Betway
